@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    background-color: #C1F4C5;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+.title-header{
+    text-align: center;
+    font-family:cursive;
+    font-size: larger;
+    background-color: #65C18C;
+    padding: 3%;
+    border-radius: 0% 0% 0% 80%;
+}
+#form-information{
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    padding: 3% 35%;
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    margin: 2%;
+    border-radius: 10px;
+}
+.shoes-input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #65C18C;
+    margin-bottom: 6%;
+
+}
+#submit-shoes-btn{
+    width: 45%;
+    padding: 4%;
+    border-radius: 5px;
+    border: none;
+    background-color: #65C18C;
+}
+.Shoes-item{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow:  rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 8% 8%;
+}
+.Shoes-photo{
+    width: 80%;
+    height: 200px;
+}
+.btn-add-shop{
+    border: none;
+    padding: 3%;
+    margin-bottom: 4%;
+    border-radius: 3px;
+    background-color: #65C18C;
+}
+#Item-Add-Show{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    margin-top: 5%;
+}
+.informationStyle{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    padding: 2%;
+    width: 50%;
+    margin-top: 3%;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+#shoesinformation{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.btn-remove{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFBED8;
+    padding: 3%;
+}
+.input-number{
+    width: 15%;
+    border: none;
+    outline: none;
+    background-color: #65C18C;
+    margin-left: 2%;
+    border-radius: 2px;
+}
+.img-baket{
+    width: 30%;
+    height: 75px;
+    margin-bottom: 4%;
+}
+.informationStyle{
+   margin-bottom: 3% ;
+}
+.shoesName-div ,.shoes-price-basket,.input-number{
+    margin-bottom: 25%;
+}
+
